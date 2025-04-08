@@ -1,9 +1,10 @@
+
 body {
   margin: 0;
   padding: 0;
   background: #000;
   color: #00ffe0;
-  font-family: 'Barrio', cursive;
+  font-family:'Barrio', cursive;
   overflow-x: hidden;
 }
 
@@ -66,7 +67,8 @@ button#audio-btn {
   cursor: pointer;
   font-weight: bold;
   transition: transform 0.2s ease;
-  box-shadow: 0 0 10px #00ffe0, 0 0 20px #00ffe0 inset;
+  animation: lightPulse 1.5s infinite;
+  box-shadow: 0 0 10px #00ffe0, 0 0 25px #00ffe0, 0 0 35px #00ffe0;
 }
 
 button#audio-btn:hover {
@@ -80,9 +82,9 @@ button#audio-btn:hover {
   width: 100vw;
   height: 100vh;
   z-index: 0;
-  background: url('g2.gif') center center no-repeat;
+  background: url('g3.png') center center no-repeat;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 @keyframes fadeIn {
@@ -93,4 +95,10 @@ button#audio-btn:hover {
 @keyframes pulse {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.05); }
+}
+
+@keyframes lightPulse {
+  0% { box-shadow: 0 0 10px #00ffe0, 0 0 25px #00ffe0, 0 0 35px #00ffe0; }
+  50% { box-shadow: 0 0 15px #00ffe0, 0 0 40px #00ffff, 0 0 60px #00e6ff; }
+  100% { box-shadow: 0 0 10px #00ffe0, 0 0 25px #00ffe0, 0 0 35px #00ffe0; }
 }
