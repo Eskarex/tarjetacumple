@@ -82,7 +82,7 @@ button#audio-btn:hover {
   height: 200%;
   background: url('g.gif');
   background-size: cover;
-  animation: moveStars 80s linear infinite;
+  
 }
 
 @keyframes fadeIn {
