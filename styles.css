@@ -78,8 +78,6 @@ button#audio-btn:hover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
-  height: 50%;
   background: url('g.gif');
   background-size: cover;
   
