@@ -80,7 +80,7 @@ button#audio-btn:hover {
   left: 0;
   width: 200%;
   height: 200%;
-  background: url('https://media.giphy.com/media/l0ExncehJzexFpRHq/giphy.gif');
+  background: url('https://i.ibb.co/ZYW3VTp/galaxy-stars.gif');
   background-size: cover;
   animation: moveStars 80s linear infinite;
 }
