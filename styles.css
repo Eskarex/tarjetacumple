@@ -80,7 +80,7 @@ button#audio-btn:hover {
   left: 0;
   width: 200%;
   height: 200%;
-  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/969655a3-2cdb-4a72-9705-baef5a4cb53d/db3jw7h-2563d00c-9828-4c19-b32e-c5ad7e5da429.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk2OTY1NWEzLTJjZGItNGE3Mi05NzA1LWJhZWY1YTRjYjUzZFwvZGIzanc3aC0yNTYzZDAwYy05ODI4LTRjMTktYjMyZS1jNWFkN2U1ZGE0MjkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PSfTV5l0zSgbpQAb-I9Qjwg302PF4Y4nTDxLdWFDsuo');
+  background: url('g.gif');
   background-size: cover;
   animation: moveStars 80s linear infinite;
 }
