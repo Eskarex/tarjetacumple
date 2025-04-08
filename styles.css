@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: linear-gradient(180deg, #000000 0%, #022c30 100%);
   color: #00ffe0;
-  font-family: 'UnifrakturCook', 'Barrio', cursive;
+  font-family:'Barrio', cursive;
   overflow-x: hidden;
 }
 
